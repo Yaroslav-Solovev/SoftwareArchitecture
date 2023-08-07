@@ -1,6 +1,10 @@
 package HW_Les_4;
 
-// Класс для треугольника
+/** 
+ * Класс для треугольника
+ * @autor GB
+ * @version 1.0
+*/
 class Triangle extends Shape {
     private double side1;
     private double side2;

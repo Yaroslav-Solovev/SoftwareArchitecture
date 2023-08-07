@@ -1,6 +1,10 @@
 package HW_Les_4;
 
-// Класс для прямоугольника
+/** 
+ * Класс для прямоугольника
+ * @autor GB
+ * @version 1.0
+*/
 class Rectangle extends Shape {
     private double length;
     private double width;

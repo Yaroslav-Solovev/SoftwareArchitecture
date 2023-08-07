@@ -1,6 +1,10 @@
 package HW_Les_4;
 
-// Класс для круга
+/** 
+ * Класс для круга
+ * @autor GB
+ * @version 1.0
+*/
 class Circle extends Shape {
     private double radius;
 
