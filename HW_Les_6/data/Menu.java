@@ -1,6 +1,7 @@
 package HW_Les_6.data;
 
 import HW_Les_6.operations.AddBook;
+import HW_Les_6.operations.FileSafe;
 import HW_Les_6.operations.OutAllBooks;
 import HW_Les_6.operations.RemoveBook;
 
@@ -18,8 +19,9 @@ public class Menu {
                 .append("1 - Добавление книги\n")
                 .append("2 - Удаление книги\n")
                 .append("3 - Вывод списка книг\n")
+                .append("4 - Сохранение книг в файл по авторам\n")
                 .append("0 - exit\n");
-        
+                
         while (true) {
             ui.set(sb.toString());
             switch (ui.get()) {
@@ -31,6 +33,9 @@ public class Menu {
                     return;
                 case "3":
                     OutAllBooks.getAllBooks();
+                    return;
+                case "4":
+                    FileSafe.fileSafe();
                     return;
                 case "0":
                     return;

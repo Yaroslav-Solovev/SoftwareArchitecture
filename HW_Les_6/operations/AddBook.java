@@ -1,7 +1,6 @@
 package HW_Les_6.operations;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import HW_Les_6.console.ConsoleLine;
 import HW_Les_6.console.ConsoleNumber;
