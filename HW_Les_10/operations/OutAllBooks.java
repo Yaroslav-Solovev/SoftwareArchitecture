@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import HW_Les_10.domain.OrderItem;
 import HW_Les_10.domain.Product;
 
-public class OutAllBooks{ //** Вывод всей базы книг*/
+public class OutAllBooks{ //** Вывод всего заказа*/
     public static OrderItem enterBase = new OrderItem();
    
     public static ArrayList<Product> getAllBooks() throws Exception {
