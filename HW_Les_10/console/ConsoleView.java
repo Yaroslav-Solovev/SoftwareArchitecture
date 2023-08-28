@@ -1,7 +1,7 @@
 package HW_Les_10.console;
 
 import java.util.Scanner;
-import HW_Les_6.data.BookRepository;
+import HW_Les_10.data.BookRepository;
 
 public class ConsoleView implements BookRepository{
     

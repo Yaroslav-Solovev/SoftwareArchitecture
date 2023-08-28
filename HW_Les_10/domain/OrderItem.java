@@ -1,8 +1,8 @@
 package HW_Les_10.domain;
 import java.util.ArrayList;
 
-import HW_Les_6.console.ConsoleLine;
-import HW_Les_6.console.ConsoleNumber;
+import HW_Les_10.console.ConsoleLine;
+import HW_Les_10.console.ConsoleNumber;
 
 public class OrderItem {
 
