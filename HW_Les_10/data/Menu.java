@@ -1,6 +1,8 @@
 package HW_Les_10.data;
 
 import HW_Les_10.operations.AddBook;
+import HW_Les_10.operations.OutAllBooks;
+import HW_Les_10.operations.PrintBooks;
 import HW_Les_10.operations.RemoveBook;
 import HW_Les_10.domain.Order;
 
@@ -17,7 +19,9 @@ public class Menu {
                 .append("\n ==== \n")
                 .append("1 - Добавление книги в заказ\n")
                 .append("2 - Удаление книги из заказа\n")
-                .append("3 - Расчет суммы заказа\n")
+                .append("3 - Вывести список заказа\n")
+                .append("4 - Расчет суммы заказа\n")
+                .append("5 - Распечатать заказ\n")
                 .append("0 - exit\n");
                 
         while (true) {
@@ -30,7 +34,13 @@ public class Menu {
                     RemoveBook.removeBook();
                     return;
                 case "3":
+                    OutAllBooks.getAllBooks();
+                    return;
+                case "4":
                     Order.sumOrder();
+                    return;
+                case "5":
+                    PrintBooks.fileSafe();
                     return;
                 case "0":
                     return;
